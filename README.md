@@ -288,6 +288,8 @@ String methods :
 
 trim ; substring ; toUppercase ; toLowercase ; charAt ; replace 
 
+String Constant Pool (SCP) 
+
 =============================================================================================================================================================================
 
 ARRAY : this is a linear data structure which holds the homogeneous data (same type of data), we can access its elements through indices..
