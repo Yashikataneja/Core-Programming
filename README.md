@@ -1,4 +1,24 @@
 # Core-Programming
+1995 ; developed by Sun microsystems.
+
+WORA PRINCIPLE OF JAVA :
+"WRITE ONCE, RUN ANYWHERE"
+
+Features of Java :
+Simple – syntax thoda C/C++ jaisa hai.
+Object-Oriented – classes, objects, inheritance, polymorphism sab use hota hai.
+Platform Independent – Java code pehle bytecode me convert hota hai, fir JVM (Java Virtual Machine) usse run karta hai.
+Secure – viruses aur memory corruption ke chances kam.
+Robust – errors handle karne ke liye exception handling system.
+Multithreaded – ek saath multiple tasks perform kar sakta hai.
+Automatic Garbage Collection – unused memory automatically free hoti hai.
+
+tHE 4 PILLARS OF OOPS ARE :
+Inheritance
+Polymorphism
+Abstraction
+Encapsulation
+
 Java is a high-level, object-oriented programming language that is platform-independent due to the Java Virtual Machine (JVM).
 
 JAVAC : Javac is a compiler of Java which is present in the JDK (Java Development Kit), Javac compiler is used to compile the java programs.
