@@ -391,5 +391,72 @@ void printArray(int[] arr) {
     for (int i : arr) System.out.println(i);
 }
 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+
+13-10-2025                                                                                                                                Monday
+
+paradigm : approaches or algos that are require to solve the problems in programming.
+
+Types of paradigm :
+
+1) Divide and Conquer
+2) Dynamic Programming
+3) Greedy Algo
+4) Backtracking
+5) Branch & Bound
+6) 
+
+TYPES OF DATA STRUCTURES :
+
+1) Arrays
+2) Linked List
+3) Stack
+4) Queue
+5) Tree
+6) Graph
+7) HashTable
+
+   Every Data structure has its own pros and cones, they are basically the helping tools;
+
+   ARRAYS IS CACHE FRIENDLY
+
+DP is the most important technique.
+
+Binary Search require sorting, sorting in any order (ascending or descending).
+Binary Search can't be possible in Linked List.
+
+Linear Search Time complexity is O(n) : worst case.
+
+CPU KE SABSE NEAREST REGISTER ; THEN CACHE MEMORY ; THE RAM ; THEN HAR DISK.
+
+In linked lis, node ka address ussi ke data type mei store krega..
+next will store the next node address.
+
+Node head= new Node();
+(data part and next part)
+
+head ke address mein naya node dal do using new node...
+
+Linked List 
+
+simple ways to insert nodes in linked list :
+
+6----->2------>8----->9
+
+Node head=new node();
+head.data=6; //to insert ele in the node in data side of linked list
+head.next=new Node();
+Node c=head.next();
+c.data=2;
+c.next=new node();
+c=c.next();
+c.data=8;
+c.next=new node();
+c=c.next();
+c.data=9;
+c.next=null;
+
+when you have many no. of nodes in linked list, use loops to insert elements in a faster way, rather than just above (hard) coding method.
 
 
