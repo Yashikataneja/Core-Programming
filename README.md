@@ -459,4 +459,32 @@ c.next=null;
 
 when you have many no. of nodes in linked list, use loops to insert elements in a faster way, rather than just above (hard) coding method.
 
+1. Node inserting at the beginning of linked list :
+/*code*/
 
+Node f=new node();
+f.data=sc.nextInt();
+f.next=head;
+head=f;
+
+2. Node inserting to middle :
+
+   Node f=new Node();
+   f.data=sc.nextInt();
+   Node ptr=head; int c=1;
+   while(c<k){
+   ptr=ptr.next;
+   c++;
+   }
+   f.next=ptr.next;
+   ptr.next=f;
+
+3. Node inserting at the last :
+
+   Node l=new Node();
+   l.data=sc.nextInt();
+   Node ptr=head;
+   while(ptr.next!=null){
+   ptr=ptr.next;}ptr.next=l;
+   l.next=null;
+   }
