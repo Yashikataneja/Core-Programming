@@ -488,3 +488,12 @@ head=f;
    ptr=ptr.next;}ptr.next=l;
    l.next=null;
    }
+
+   ==========================================================================================
+
+   Iterator is an interface..
+   
+   WHICH CURSOR IS KNOWN AS UNIVERSAL CURSOR???
+   ITERATOR IS KNOWN AS UNIVERSAL CURSOR.
+
+   
